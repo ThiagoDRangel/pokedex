@@ -5,7 +5,7 @@ export async function getPokemonTypeList() {
   return await response.json();
 }
 
-export async function getPokemonDetails(url) {
+export async function getPokemonTypeDetailsByUrl(url) {
   const response = await fetch(url);
   return await response.json();
 }
